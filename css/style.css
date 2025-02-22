@@ -487,6 +487,11 @@ border-top-left-radius: 0px;
     display: flex;
 }
 
+.footer-block {
+    margin-right: 120px;
+    
+}
+
 .logo-footer {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -519,6 +524,9 @@ border-top-left-radius: 0px;
 }
 
 .footer-icons {
+    display: flex;
+    align-items: baseline;
+
     margin-left: 120px;
 }
 
