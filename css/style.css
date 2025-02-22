@@ -488,7 +488,8 @@ border-top-left-radius: 0px;
 }
 
 .footer-block {
-    
+    display: flex;
+    align-items: baseline;
     margin-right: 120px;
 
 
