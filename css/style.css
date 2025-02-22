@@ -90,7 +90,7 @@ font-family: "Raleway", sans-serif;
 .list-studio.current {
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 
 .list-studio.current::after {
@@ -141,7 +141,9 @@ gap: 40px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;}
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .nav-tel-mail :hover,
 .nav-tel-mail :focus {
