@@ -86,7 +86,7 @@ font-family: "Raleway", sans-serif;
     position: relative;
 }
 
-.list-studio.current::before {
+.list-studio.current::after {
     content: "";
     position: absolute;
     left: 0;
