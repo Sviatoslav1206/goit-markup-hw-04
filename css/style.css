@@ -530,32 +530,3 @@ display: flex;
         max-width: 264px;
 }
 
-.footer-icons {
-    display: flex;
-    align-items: baseline;
-
-    margin-left: 120px;
-}
-
-.social {
-font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    
-    margin-bottom: 16px;
-}
-
-.icon-iteam-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-    width: calc((100% - 24 * 3) / 4);
-}
- 
-.icon-iteam-footer :hover {
-    background: #31d0aa;
-}
- 
