@@ -45,6 +45,9 @@ button {
 
 .header {
 border-bottom: 1px solid #e7e9fc;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 
 
@@ -76,6 +79,8 @@ font-family: "Raleway", sans-serif;
         color: #2e2f42;
 }
 
+
+
 .list-studio {
     color: #2e2f42;
     padding: 24px 0 ;
@@ -84,6 +89,8 @@ font-family: "Raleway", sans-serif;
 
 .list-studio.current {
     position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .list-studio.current::after {
@@ -93,7 +100,7 @@ font-family: "Raleway", sans-serif;
     bottom: -1px;
     width: 100%;
     height: 4px;
-    border-radius: 4px;
+    border-radius: 2px;
     background: #404bbf;
 
 
