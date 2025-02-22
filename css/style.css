@@ -411,7 +411,15 @@ border-top-left-radius: 0px;
     transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1),
      opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: ease-in-out;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.item-list-portfolio :hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 
 .item-list-portfolio :hover .block-text {
     opacity: 1;
@@ -426,6 +434,7 @@ border-top-left-radius: 0px;
 
 .portfolio-block {
     position: relative;
+    overflow: hidden;
 }
 
 
@@ -439,6 +448,10 @@ border-top-left-radius: 0px;
      color: #f4f4fd;
     background: #4d5ae5;
     opacity: 0;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
