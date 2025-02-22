@@ -487,9 +487,13 @@ border-top-left-radius: 0px;
     display: flex;
 }
 
-.footer-block {
-    display: flex;
+.popav {
+display: flex;
     align-items: baseline;
+}
+
+.footer-block {
+    
     margin-right: 120px;
 
 
