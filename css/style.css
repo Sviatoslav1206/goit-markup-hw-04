@@ -276,6 +276,7 @@ font-weight: 700;
 .our-team {
     background-color: #f4f4fd;
     padding: 120px 0;
+
 }
 
 .our-team-up {
@@ -300,6 +301,9 @@ font-weight: 700;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .team-name {
@@ -341,6 +345,11 @@ border-top-left-radius: 0px;
         width: calc((100% - 24 * 3) / 4); 
 }
 
+.icon-iteam :hover,
+.icon-iteam :focus {
+    background-color: #404bbf;
+}
+
 .icon-list-first {
         width: 40px;
             height: 40px;
@@ -352,9 +361,15 @@ border-top-left-radius: 0px;
             
 }
 
-.icon-iteam :hover,
-.icon-iteam :focus {
-    background-color: #404bbf;
+.soc-icon {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+
 }
 
 
